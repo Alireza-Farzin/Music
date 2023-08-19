@@ -1,0 +1,132 @@
+@import url(rest.css);
+@font-face {
+    font-family: 'vazirNormal';
+    src: url('fonts/vazir.eot');
+    src: url('fonts/vazir.eot?#iefix') format('embedded-opentype'),
+     url('fonts/vazir.woff2') format('woff2'),
+     url('fonts/vazir.woff') format('woff'),
+     url('fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+ body,input, button {
+    font-family: 'vazirNormal';
+}
+/* styl jenrite */
+body{
+    direction: rtl;
+}
+*{
+    box-sizing: border-box;
+}
+.canent{
+    width: 100%;
+    height: 747px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image: url('images/pexels-sebastiaan-stam-1428509.jpg');
+    background-size: cover;
+}
+.canterne{
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+}
+/* nav */
+.canterne #nav .loge{
+    float: right;
+}
+ #nav .loge svg{
+    font-size: 50px;
+    color: rgb(253,46,84);
+}
+ #nav .titie{
+    line-height: 40px;
+    padding-right: 70px;
+}
+#nav .titie h1{
+    font-size: 30px;
+    color: white;
+}
+#nav .titie h2{
+    font-size:18px;
+    color: rgb(253,46,84);
+}
+#nav .navbar{
+    float: left;
+    position: relative;
+    left: 170px;
+    bottom: 55px;
+}
+#nav .navbar ul li {
+    display: inline-block;
+}
+#nav .navbar ul li  a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.25s;
+}
+#nav .navbar ul li  a:hover{
+    border-bottom:2px solid white;
+}
+#nav .navbar ul li .home{
+    color: rgb(253,46,84);
+}
+/* audio */
+#audio .tltle {
+    line-height: 30px;
+    color: white;
+    float: right;
+}
+#audio .tltle h1{
+    font-size: 25px;
+}
+#audio .tltle h2{
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+ #audio .casimer{
+     float: left;
+
+    }
+ #audio .casimer ul li{
+     display: inline-block;
+ }
+ #audio .casimer ul li a svg{
+     font-size: 50px;
+     color: white;
+     padding-right: 20px;
+     transition: 0.25s;
+ }
+ #audio .casimer ul li a svg:hover{
+     color: #ccc;
+ }
+ /* search */
+ #search{
+     text-align: center;
+ }
+ #search form{
+     position: relative;
+     top: 350px;
+     line-height: 80px;
+ }
+  #search form h1{
+      font-size:50px;
+      color: white;
+     position: relative;
+     left: 63px;
+  }
+ #search form .search {
+     width:400px;
+     border-radius: 15px;
+     border: none;
+     background-color:#ccc;
+     padding: 7px;
+ }
+
+
+
+
